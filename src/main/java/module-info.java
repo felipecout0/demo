@@ -13,4 +13,6 @@ module org.demo {
 
     opens org.demo to javafx.fxml;
     exports org.demo;
+    exports org.demo.controller;
+    opens org.demo.controller to javafx.fxml;
 }
