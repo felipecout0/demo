@@ -15,7 +15,7 @@ public class AppMain extends Application {
         String pathMain="C:\\Users\\Unifan\\Documents\\demo\\src\\main\\java\\org\\demo\\view\\MainView.fxml";
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(new FileInputStream(pathMain));
-        Scene scene = new Scene(root, 800, 550);
+        Scene scene = new Scene(root, 600, 350);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
